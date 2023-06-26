@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Link, Routes, Router, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import Cart from './Pages/Cart.js';
+import { Link, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -16,12 +16,10 @@ function App() {
           </li>
         </ul>
       </nav>
-      <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-      </Router>
+      <Routes>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
+      </Routes>
     </>
   );
 }
