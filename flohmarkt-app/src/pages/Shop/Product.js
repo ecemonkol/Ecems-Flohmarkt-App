@@ -1,13 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 
+export const Product = (props) => {
+  const { id, productName, prouductImage, price, } = props.data;
+  return <div></div>
 
-
-export const Product = () => {
-  
-
-  return (
-    <div className="product">
-      <h4>products....</h4>
-    </div>
-  );
 }
