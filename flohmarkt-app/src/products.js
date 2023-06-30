@@ -40,7 +40,7 @@ export const PRODUCTS = [
         id : 4,
         productName:'Buckethat',
         productImage: bucket,
-        proce: 999,
+        price: 999,
 
     },
 
@@ -48,7 +48,7 @@ export const PRODUCTS = [
         id : 5,
         productName:'Croosbag',
         productImage: cross,
-        proce: 999,
+        price: 999,
 
     },
 
@@ -56,7 +56,7 @@ export const PRODUCTS = [
         id : 6,
         productName:'Jacket',
         productImage: jacket,
-        proce: 999,
+        price: 999,
 
     },
 
@@ -64,7 +64,7 @@ export const PRODUCTS = [
         id : 7,
         productName:'Lampe',
         productImage: lampe,
-        proce: 999,
+        price: 999,
 
     },
 
@@ -72,7 +72,7 @@ export const PRODUCTS = [
         id : 8,
         productName:'Pitcher',
         productImage: pitcher,
-        proce: 999,
+        price: 999,
 
     },
 
@@ -80,7 +80,7 @@ export const PRODUCTS = [
         id : 9,
         productName:'Stool',
         productImage: stool,
-        proce: 999,
+        price: 999,
 
     },
     
@@ -88,7 +88,7 @@ export const PRODUCTS = [
         id : 10,
         productName:'Sunglasses',
         productImage: sun,
-        proce: 999,
+        price: 999,
 
     },
 
