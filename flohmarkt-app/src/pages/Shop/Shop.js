@@ -7,7 +7,7 @@ const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h2>EcemS Flohmarkt</h2>
+        <h2 className="head"> Liebe Flohmarkt</h2>
       </div>
       <div className="products">
         {PRODUCTS.map((product) => (

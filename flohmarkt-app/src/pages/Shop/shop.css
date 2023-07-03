@@ -1,3 +1,16 @@
+.head {
+    font-family: 'Bagel Fat One', cursive;
+    color: rgb(255, 98, 0);
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.head:hover {
+    cursor: url('./magicalwand.png'), auto;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
 .shopTitle {
     margin-top: 100px;
     text-align: center;
@@ -32,7 +45,8 @@
   
   .product:hover {
     transition: 0.3s ease-in;
-    cursor: pointer;
+    cursor: url('./magicalwand.png'), auto;
+    transform: scale(1.1);
   }
   
   .addToCartBttn {
@@ -49,5 +63,6 @@
   .addToCartBttn:hover {
     background-color: rgb(19, 19, 19);
     color: white;
-    cursor: pointer;
+    cursor: auto;
   }
+
