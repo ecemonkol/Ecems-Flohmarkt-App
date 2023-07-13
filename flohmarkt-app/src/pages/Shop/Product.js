@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 export const Product = (props) => {
   const { id, productName, price, productImage } = props.data;
   
@@ -9,12 +11,9 @@ export const Product = (props) => {
       <img src={productImage} />
       <div className="description">
         <p>
-          <b>{productName}</b>
+          <b className="name">{productName}</b>
         </p>
-        <p> ${price}</p>
-        <p>
-          <b>{id}</b>
-        </p>
+        <p className="price"> €{price}</p>
       </div>
     </div>
   );

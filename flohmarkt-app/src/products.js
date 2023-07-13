@@ -1,102 +1,102 @@
 import bag from "./assets/bag.png"
 import book from "./assets/book.png"
-import bot from "./assets/bot.png"
-import bucket from "./assets/buckethat.jpeg"
-import cross from "./assets/crossbag.jpeg"
-import jacket from "./assets/jacket.jpeg"
-import lampe from "./assets/lampe.jpeg"
+import shoes from "./assets/shoes.png"
+import bucket from "./assets/bucket.png"
+import crossbag from "./assets/crossbag.png"
+import denim from "./assets/denim.png"
+import lamp from "./assets/lamp.png"
 import pitcher from "./assets/pitcher.png"
 import stool from "./assets/stool.png"
-import sun from "./assets/sunglasses.png"
-import sweat from "./assets/sweatshirt.jpeg"
+import frame from "./assets/frame.png"
+import hoodie from "./assets/hoodie.png"
 
 
 export const PRODUCTS = [
     {
         id : 1,
-        productName:'Bag',
+        productName:' Fjallraven Backpack',
         productImage: bag,
-        price: 999,
+        price: 40,
 
     },
 
     {
         id : 2,
-        productName:'Book',
+        productName:'Folk + Form by Snøhetta',
         productImage: book,
-        price: 999,
+        price: 30,
 
     },
 
     {
         id : 3,
-        productName:'Bot',
-        productImage: bot,
-        price: 999,
+        productName:'Dr Martens 37',
+        productImage: shoes,
+        price: 120,
 
     },
 
     {
         id : 4,
-        productName:'Buckethat',
+        productName:'Bucket hat',
         productImage: bucket,
-        price: 999,
+        price: 15,
 
     },
 
     {
         id : 5,
-        productName:'Croosbag',
-        productImage: cross,
-        price: 999,
+        productName:'Croosbag Bimba Y Lola ',
+        productImage: crossbag,
+        price: 90,
 
     },
 
     {
         id : 6,
-        productName:'Jacket',
-        productImage: jacket,
-        price: 999,
+        productName:'Levis Denim Jacket M',
+        productImage: denim,
+        price: 65,
 
     },
 
     {
         id : 7,
-        productName:'Lampe',
-        productImage: lampe,
-        price: 999,
+        productName:'Retro Lamp',
+        productImage: lamp,
+        price: 99,
 
     },
 
     {
         id : 8,
-        productName:'Pitcher',
+        productName:'Ceramic Pitcher',
         productImage: pitcher,
-        price: 999,
+        price: 21,
 
     },
 
     {
         id : 9,
-        productName:'Stool',
+        productName:'Ceramic Stool',
         productImage: stool,
-        price: 999,
+        price: 120,
 
     },
     
     {
         id : 10,
-        productName:'Sunglasses',
-        productImage: sun,
-        price: 999,
+        productName:'Oliver People Frame',
+        productImage: frame,
+        price: 50,
 
     },
 
     {
         id : 11,
-        productName:'Sweatshirt',
-        productImage: sweat,
-        proce: 949,
+        productName:'Pull&Bear Hoodie M',
+        productImage: hoodie,
+        price: 20 ,
 
     },
     
