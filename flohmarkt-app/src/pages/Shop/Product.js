@@ -7,7 +7,7 @@ export const Product = (props) => {
   
 
   return (
-    <div className="product">
+    <div className="item">
       <img src={productImage} />
       <div className="description">
         <p>
@@ -15,6 +15,7 @@ export const Product = (props) => {
         </p>
         <p className="price"> €{price}</p>
       </div>
+      <button class="button-50" role="button">Add To Cart</button>
     </div>
   );
 };

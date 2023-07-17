@@ -1,93 +1,96 @@
-.shop {
-    background: rgb(224,238,174);
-    background: linear-gradient(0deg, rgba(224,238,174,1) 2%, rgba(255,255,255,1) 100%);
+
+h2 {
+  font-family: 'Bagel Fat One', cursive;
+  font-size: 200px;
+  text-shadow: -10px -10px #2e2e2e;
+  color: #ffffff;
+  margin: 30px;
 }
 
 
-.head {
-    font-family: 'Bagel Fat One', cursive;
-    color: rgb(177, 130, 182);
-    background: transparent;
-    font-size: 150px;
-    font-weight: 200;
+
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  
 }
 
-.head:hover {
-    cursor: url('./magicalwand.png'), auto;
+.button-50:focus {
+  text-decoration: none;
+  color: bisque;
+  background-color: #000000;
+}
+
+
+.button-50:hover {
+  text-decoration: none;
+  color: aqua;
+  background-color: #873636;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 600px) {
+  .button-50 {
+    padding: 6px 22px;
+    margin-bottom: 50px;
     
-}
-
-.shopTitle {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 40px;
+  }
 }
 
 .products {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-}
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
   
-.product {
-    border-radius: 15px;
-    width: 300px;
-    height: 350px;
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-p {
-    margin-bottom: 4px;
+div img {
+  width: 300px;
+}
+
+div img:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
+  cursor: grabbing;
 }
 
 
-.product img {
-    width: 300px;
-    background: transparent
-}
-  
-.product .description .name {
-    text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
-    font-weight: 100;
-    color: rgb(65, 65, 65);
-    
-}
-
-.product .description .price {
-    text-align: center;
-    font-family: 'Didact Gothic', sans-serif;
-    font-weight: 600;
-    color: rgb(64, 64, 64);
-    margin-top: 0;
-}
-  
-.product img:hover {
-    transition: 0.3s ease-in;
-    cursor: url('./magicalwand.png'), auto;
-    transform: scale(1.08);
-}
-  
-.addToCartBttn {
-    background-color: transparent;
-    border: 2px solid rgb(19, 19, 19);
-    min-width: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-}
-  
-.addToCartBttn:hover {
-    background-color: rgb(19, 19, 19);
-    color: white;
-    cursor: auto;
+.shoppage {
+  border-width: 10px;
+  border-style: inherit;
+  border-radius: 40px;
 }
 
