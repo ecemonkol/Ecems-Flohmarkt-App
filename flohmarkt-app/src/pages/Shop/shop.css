@@ -4,9 +4,17 @@ h2 {
   font-size: 200px;
   text-shadow: -10px -10px #2e2e2e;
   color: #ffffff;
-  margin: 30px;
+  margin-top: -30px;
+  
 }
 
+
+h2:hover {
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
+  cursor: grabbing;
+
+}
 
 
 .button-50 {
@@ -15,7 +23,7 @@ h2 {
   background-image: none;
   border: 1px solid #000;
   border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-shadow: #fff 4px 4px 0 0,#212121 4px 4px 0 1px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -37,17 +45,12 @@ h2 {
   
 }
 
-.button-50:focus {
-  text-decoration: none;
-  color: bisque;
-  background-color: #000000;
-}
 
 
 .button-50:hover {
   text-decoration: none;
-  color: aqua;
-  background-color: #873636;
+  background-color: rgb(253, 128, 70);
+  border-color: rgb(253, 128, 70);
 }
 
 .button-50:active {
@@ -78,7 +81,7 @@ h2 {
 }
 
 div img {
-  width: 300px;
+  width: 250px;
 }
 
 div img:hover {
@@ -88,9 +91,5 @@ div img:hover {
 }
 
 
-.shoppage {
-  border-width: 10px;
-  border-style: inherit;
-  border-radius: 40px;
-}
+
 

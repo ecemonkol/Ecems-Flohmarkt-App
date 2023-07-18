@@ -2,11 +2,13 @@
   text-align: center;
   justify-content: center;
   display: block;
-  background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+  border: solid rgb(44, 44, 44) 4px;
+  background: linear-gradient(20deg, rebeccapurple, transparent), url(https://grainy-gradients.vercel.app/noise.svg); 
+    
+}
+
+
   
-}
+  
 
 
-html {
-  background-color: rgb(228, 105, 47);
-}

@@ -2,12 +2,12 @@
     height: 80px;
     font-family: 'Bagel Fat One', cursive;
     font-size: 22px;
-    display:flex;
-    justify-content:right;
+    text-decoration: double;
+    
     
 }
 .links {
     padding: 20px;
-    color: aliceblue;
-    
+    font-size: 30px;
+    text-decoration: none;
 }
