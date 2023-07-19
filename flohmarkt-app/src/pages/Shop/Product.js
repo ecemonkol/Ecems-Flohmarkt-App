@@ -1,14 +1,12 @@
 import React from "react";
 
-
-
 export const Product = (props) => {
-  const { id, productName, price, productImage } = props.data;
+  const {productName, price, productImage } = props.data;
   
 
   return (
     <div className="item">
-      <img src={productImage} />
+      <img src={productImage} alt="" />
       <div className="description">
         <p>
           <b className="name">{productName}</b>

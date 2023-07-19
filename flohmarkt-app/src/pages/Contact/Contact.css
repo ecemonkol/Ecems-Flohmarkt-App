@@ -87,7 +87,7 @@ label {
     margin: 20px;
     margin-bottom: 4px;
     color:rgba(23, 23, 23, 0.867);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Inconsolata', monospace;
     text-align: left;
     margin-left: 0;
     
@@ -100,8 +100,9 @@ label {
 
 .button:hover {
     text-decoration: none;
-    background-color: rgb(253, 128, 70);
-    border-color: rgb(253, 128, 70);
+    background-color: rgb(253, 216, 70);
+    border-color: rgb(253, 216, 70);
+    color: #2e2e2e;
 }
   
 .button:active {
@@ -110,7 +111,7 @@ label {
 }
   
 .button:not([disabled]):active {
-    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    box-shadow: #fff 2px 2px 0 0, #2e2e2e 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
   

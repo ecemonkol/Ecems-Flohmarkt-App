@@ -1,4 +1,8 @@
 .footer {
     width: inherit;
-    height: 200px;
+    height: 220px;
+    color: rgb(23, 116, 198); 
+    background-color: rgb(255, 255, 255);
+    
 }
+

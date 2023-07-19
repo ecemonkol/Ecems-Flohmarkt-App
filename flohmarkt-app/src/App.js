@@ -10,7 +10,7 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <div className="App">
-      <Navbar /><br></br>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />

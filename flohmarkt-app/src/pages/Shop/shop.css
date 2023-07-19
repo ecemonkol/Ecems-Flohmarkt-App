@@ -1,29 +1,14 @@
 
-h2 {
-  font-family: 'Bagel Fat One', cursive;
-  font-size: 200px;
-  text-shadow: -10px -10px #2e2e2e;
-  color: #ffffff;
-  margin-top: -30px;
-  
-}
 
-
-h2:hover {
-  transition: 0.3s ease-in;
-  transform: scale(1.05);
-  cursor: grabbing;
-
-}
 
 
 .button-50 {
   appearance: button;
-  background-color: #000;
+  background-color: #2e2e2e;
   background-image: none;
-  border: 1px solid #000;
+  border: 1px solid #2e2e2e;
   border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0,#212121 4px 4px 0 1px;
+  box-shadow: #fff 4px 4px 0 0, #2e2e2e 4px 4px 0 1px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -49,8 +34,10 @@ h2:hover {
 
 .button-50:hover {
   text-decoration: none;
-  background-color: rgb(253, 128, 70);
-  border-color: rgb(253, 128, 70);
+  background-color: rgb(253, 216, 70);
+  border-color:rgb(253, 216, 70);
+  color: #2e2e2e;
+
 }
 
 .button-50:active {
@@ -59,7 +46,7 @@ h2:hover {
 }
 
 .button-50:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  box-shadow: #fff 2px 2px 0 0, #2e2e2e 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
@@ -77,6 +64,7 @@ h2:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  flex-wrap: wrap;
   
 }
 
@@ -91,5 +79,22 @@ div img:hover {
 }
 
 
+.name {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300s;
+  color: #2e2e2e;
+}
 
+.price {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #2e2e2e;
+}
 
+.arrow-up {
+  height: 80px;
+  background-color: #2e2e2e;
+  color: #fff;
+  
+}

@@ -1,13 +1,46 @@
 .navbar {
-    height: 80px;
-    font-family: 'Bagel Fat One', cursive;
     font-size: 22px;
-    text-decoration: double;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px 10%;
     
 }
-.links {
-    padding: 20px;
-    font-size: 30px;
+
+a {
+    color: #ffffff;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(253, 216, 70);
+}
+
+.links {
+    margin-top: 60px;
+    margin-bottom: 0%;
+    font-size: 28px;
+    justify-content: space-between;
+    font-family: 'Inconsolata', monospace;
+    display: inline-block;
+
+}
+
+
+
+.code {
+    background-color: rgba(255, 255, 255, 0.453);
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.logo {
+  font-family: 'Bagel Fat One', cursive;
+  font-size: 80px;
+  text-shadow: -6px -6px #2e2e2e;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
 }
