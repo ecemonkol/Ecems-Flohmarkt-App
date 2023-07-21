@@ -1,4 +1,4 @@
-.button-50 {
+.addToCartButton {
   appearance: button;
   background-color: #2e2e2e;
   background-image: none;
@@ -28,7 +28,7 @@
 
 
 
-.button-50:hover {
+.addToCartButton:hover {
   text-decoration: none;
   background-color: rgb(253, 216, 70);
   border-color:rgb(253, 216, 70);
@@ -36,18 +36,18 @@
 
 }
 
-.button-50:active {
+.addToCartButton:active {
   box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
   outline: 0;
 }
 
-.button-50:not([disabled]):active {
+.addToCartButton:not([disabled]):active {
   box-shadow: #fff 2px 2px 0 0, #2e2e2e 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
 @media (min-width: 600px) {
-  .button-50 {
+  .addToCartButton {
     padding: 6px 22px;
     margin-bottom: 50px;
     
@@ -112,54 +112,3 @@ div .pic:hover {
 
 
 
-#scroll-container {
-  background-color: rgb(12, 12, 12);
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  font-size: 24px; 
-  font-weight: bold;
-  text-align: center;
-  mix-blend-mode: multiply;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-  
-  
-
-#scroll-text {
-  text-align: right;
-
-  /* animation properties */
-  -moz-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
-  
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(-100%); }
-  to { -moz-transform: translateX(100%); }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(-100%); }
-  to { -webkit-transform: translateX(100%); }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-  to {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-}
