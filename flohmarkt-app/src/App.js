@@ -6,17 +6,21 @@ import { Cart } from './pages/Cart/Cart';
 import { Contact } from './pages/Contact/Contact';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
+import { ShopContextProvider } from "./context/shopcontext";
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Shop />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/cart" element={<Cart />} />
-      </Routes>
-      <Footer/>
+      <ShopContextProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+        <Footer/>
+      </ShopContextProvider>
     </div>
   );
 }
