@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { ShopContext } from "../../context/shopcontext";
 import { PRODUCTS } from "../../products";
-import { CartItem } from "./cartitem.jsx";
+import  CartItem  from "./cart-item.jsx";
 import { useNavigate } from "react-router-dom";
 import PromoCodeInput from "../../components/PromoCodeInput"; // Import the PromoCodeInput component
 import "./cart.css";
@@ -37,7 +37,8 @@ export const Cart = () => {
       const discountedAmount = originalTotalAmount * 0.8; // Calculate the discounted amount (20% off)
       setDiscountedTotalAmount(discountedAmount.toFixed(2));
     } else {
-      setDiscountedTotalAmount(null); // If the promo code is not valid, reset the discounted total
+      setDiscountedTotalAmount(null);
+      alert("Sorry:( It is not a valid code") // If the promo code is not valid, reset the discounted total
     }
   };
 

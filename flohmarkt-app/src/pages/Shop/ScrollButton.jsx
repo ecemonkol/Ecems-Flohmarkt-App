@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { FaAngleUp } from 'react-icons/fa';
+import { FaArrowCircleUp } from 'react-icons/fa';
 import './ScrollToTop.css';
 
 const ScrollToTop = () => {
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false)
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -20,11 +20,11 @@ const ScrollToTop = () => {
             top: 0,
             behavior: 'smooth',
         });
-    };
+    };  
 
     return (
-        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}} onClick={goTop}>
-            <FaAngleUp/>
+        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}}>
+	        <FaArrowCircleUp/>
         </button>
     );
 }

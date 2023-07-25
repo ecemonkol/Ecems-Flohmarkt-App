@@ -2,7 +2,7 @@ import * as React from 'react';
 import { PRODUCTS } from "../../products";
 import { Product } from ".//Product";
 import "./shop.css";
-import  ScrollToTop from '../../components/ScrollToTop.jsx';
+import  ScrollToTop from './ScrollButton.jsx';
 
 
 
@@ -20,4 +20,3 @@ export const Shop = () => {
     </div>
   );
 };
-

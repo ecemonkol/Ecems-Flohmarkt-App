@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div id="scroll-container">
-         <div id="scroll-text"> PROMO CODE: SOMMAR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+         <div id="scroll-text"> PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
       </div>
       <div className="navbar">
         <p className="logo">Flohmarkt</p>
