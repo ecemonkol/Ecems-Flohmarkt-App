@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaArrowCircleUp } from 'react-icons/fa';
+import { IoMdArrowRoundUp } from 'react-icons/io';
 import './ScrollToTop.css';
 
 const ScrollToTop = () => {
@@ -23,8 +23,8 @@ const ScrollToTop = () => {
     };  
 
     return (
-        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}}>
-	        <FaArrowCircleUp/>
+        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}} onClick={goTop}>
+	        <IoMdArrowRoundUp/>
         </button>
     );
 }
