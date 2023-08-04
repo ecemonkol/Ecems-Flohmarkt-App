@@ -18,35 +18,122 @@
     width: 700px;
     height: 250px;
     display: flex;
-  
     align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(240, 248, 255, 0.2);
+    border-radius: 4px;
     border-radius: 5px;
     margin: 30px;
+    margin-top: 0;
 }
   
 .cartItem img {
     width: 150px;
+    margin-left: 50px;
 }
   
 .cartItem .description {
     width: 100%;
     font-size: 30px;
+    
 }
   
 .countHandler input {
     width: 40px;
     text-align: center;
     font-weight: bolder;
+
 }
-  
-.checkout button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(19, 19, 19);
+
+.minusplus {
+    
+    background-color: rgba(19, 19, 19, 0.16);
     color: white;
     border: none;
     border-radius: 2px;
-    margin: 10px;
-    cursor: pointer;
+    height: 20px;
 }
+
+.minusplus:hover {
+    background-color: rgb(253, 216, 70);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 20px;
+    
+}
+  
+.menge {
+   height: 15px;
+   border-radius: 2px;
+   margin-left: 3px;
+   margin-right: 3px;
+
+
+}
+
+
+.checkout button {
+
+   
+  background-color: #2e2e2e;
+  background-image: none;
+  border: 1px solid #2e2e2e;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0, #2e2e2e 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 15px 8px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+
+}
+
+.checkout button:hover {
+    text-decoration: none;
+    background-color: rgb(253, 216, 70);
+    border-color:rgb(253, 216, 70);
+    color: #2e2e2e;
+}
+
+.subtotal {
+    font-size: 1.3rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promocode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    width: 140px;
+}
+
+.discount {
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+

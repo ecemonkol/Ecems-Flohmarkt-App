@@ -13,14 +13,14 @@ const CartItem = (props) => {
         <p>
           <b>{productName}</b>
         </p>
-        <p> Price: ${price}</p>
+        <p> Price: {price} EU</p>
         <div className="countHandler">
-          <button onClick={() => removeFromCart(id)}> - </button>
-          <input
+          <button className="minusplus" onClick={() => removeFromCart(id)}> - </button>
+          <input className="menge"
             value={cartItems[id]}
             onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
           />
-          <button onClick={() => addToCart(id)}> + </button>
+          <button className="minusplus" onClick={() => addToCart(id)}> + </button>
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ export const Cart = () => {
       setDiscountedTotalAmount(discountedAmount.toFixed(2));
     } else {
       setDiscountedTotalAmount(null);
-      alert("Sorry:( It is not a valid code") // If the promo code is not valid, reset the discounted total
+      alert("Sorry:( It's  not a valid code") // If the promo code is not valid, reset the discounted total
     }
   };
 
@@ -58,13 +58,13 @@ export const Cart = () => {
 
       {originalTotalAmount > 0 ? (
         <div className="checkout">
-          <p>Subtotal: ${originalTotalAmount.toFixed(2)}</p>
+          <p className="subtotal">Subtotal: {originalTotalAmount.toFixed(2)} EU</p>
           <PromoCodeInput value={promoCode} onChange={handlePromoCodeChange} /> {/* Render the PromoCodeInput component */}
           <button onClick={handleApplyPromoCode}>Apply</button>
           {discountedTotalAmount !== null && promoCode === 'SOMMAR23' ? (
             <>
-              <p>Promo Code Discount (20% off): ${(originalTotalAmount * 0.2).toFixed(2)}</p>
-              <p>Discounted Total: ${discountedTotalAmount}</p>
+              <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)}EU</p>
+              <p className="discount">Discounted Total: EU{discountedTotalAmount}</p>
             </>
           ) : null}
           <button onClick={() => navigate("/")}>Continue Shopping</button>
