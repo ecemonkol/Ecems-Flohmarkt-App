@@ -63,7 +63,7 @@ export const Cart = () => {
           <button onClick={handleApplyPromoCode}>Apply</button>
           {discountedTotalAmount !== null && promoCode === 'SOMMAR23' ? (
             <>
-              <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)}EU</p>
+              <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)} EU</p>
               <p className="discount">Discounted Total: EU{discountedTotalAmount}</p>
             </>
           ) : null}
