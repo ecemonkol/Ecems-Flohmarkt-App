@@ -28,7 +28,6 @@
     margin-top: 30px;
 }
   
-  
 .button:hover {
     text-decoration: none;
     background-color: rgb(253, 128, 70);
@@ -44,8 +43,6 @@
     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
-
-
 
 input  {
   width: 300px;
@@ -81,8 +78,6 @@ form {
     border-radius: 4px;
     
 }
-
-
 
 label {
     font-size: 18px;
@@ -126,12 +121,3 @@ label {
     }
 }
 
-.contactform {
-    text-align: center;
-    justify-content: center;
-    display: block;
-}
-
-textarea {
-    resize: none;
-}
