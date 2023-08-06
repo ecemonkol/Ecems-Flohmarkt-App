@@ -121,3 +121,12 @@ label {
     }
 }
 
+.contactform {
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
