@@ -7,15 +7,14 @@ import { FaShoppingCart } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <>
-      <div id="scroll-container">
-         <div id="scroll-text"> PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROMO CODE: SOMMAR20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+      <div id="promo-bar">
+        <p className='promocode'> 10% discount code on everything! code: SOMMAR23</p>
       </div>
       <div className="navbar">
-        <p className="logo">Flohmarkt</p>
         <div className="links">
-          <Link to="/contact" id="contact" >Contact</Link>
-          <Link to="/"> Shop </Link>
-          <Link to="/cart" id="cart"><FaShoppingCart/></Link>
+          <Link to="/"> SHOP </Link>
+          <Link to="/contact" id="contact" > CONTACT </Link>
+          <Link to="/cart" id="cart"> CART<FaShoppingCart/></Link>
         </div>
       </div>
     </>

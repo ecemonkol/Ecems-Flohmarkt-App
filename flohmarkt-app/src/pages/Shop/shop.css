@@ -1,38 +1,22 @@
 .addToCartButton {
-  appearance: button;
-  background-color: #2e2e2e;
-  background-image: none;
-  border: 1px solid #2e2e2e;
-  border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0, #2e2e2e 4px 4px 0 1px;
-  box-sizing: border-box;
-  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
   cursor: pointer;
-  display: inline-block;
-  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0 5px 10px 0;
-  overflow: visible;
-  padding: 12px 40px;
-  text-align: center;
-  text-transform: none;
-  touch-action: manipulation;
+  border: 3px solid;
+  padding: 0.4em 0.7em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
   user-select: none;
   -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
+  touch-action: manipulation;
   
 }
 
-
-
 .addToCartButton:hover {
-  text-decoration: none;
-  background-color: rgb(253, 216, 70);
-  border-color:rgb(253, 216, 70);
-  color: #2e2e2e;
+
 
 }
 
@@ -42,17 +26,17 @@
 }
 
 .addToCartButton:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #2e2e2e 2px 2px 0 1px;
-  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
 }
 
-@media (min-width: 600px) {
-  .addToCartButton {
-    padding: 6px 22px;
-    margin-bottom: 50px;
-    
-  }
+@media (min-width: 768px) {
+.addToCartButton {
+  padding: 0.25em 0.75em;
 }
+}
+
 
 .products {
   width: 100%;
@@ -84,8 +68,9 @@ div .pic:hover {
 .price {
   font-family: 'Inconsolata', monospace;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 26px;
   color: #2e2e2e;
+  margin-bottom: 10px;
 }
 
 .arrow-up {
@@ -96,19 +81,11 @@ div .pic:hover {
   padding: 1%;
 }
 
-
 .shoppage {
   text-align: center;
   justify-content: center;
   display: block;
   height: 0%;
 }
-
-.arrow-up:hover {
-  background-color: rgb(253, 216, 70);
-  
-}
-
-
 
 
