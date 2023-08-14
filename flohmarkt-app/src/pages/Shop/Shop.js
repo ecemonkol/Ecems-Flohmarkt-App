@@ -11,6 +11,8 @@ export const Shop = () => {
    <div>
       <div className="shoppage">
         <img className= "headerimg" src='./logo.png' alt=""/>
+        <button className="startshoppingbutton">Start Shopping!</button>
+        <img className= "shopheader" src='./shopheader.png' alt=""/>
         <div className="products">
           {PRODUCTS.map((product) => (
             <Product data={product} />

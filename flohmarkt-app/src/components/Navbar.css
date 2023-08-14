@@ -5,12 +5,10 @@
     padding: 30px 8%;
     margin-top: 0;
     background: linear-gradient(180deg, rgba(165, 201, 63, 0.85) 0%, rgba(255, 157, 11, 0.33) 67.71%, rgba(255, 157, 11, 0.00) 96.35%);
-    height: 600px;
+    height: 500px;
 }
 
-.pitems {
-   height: 200px;
-}
+
 
 
 div a {
@@ -21,7 +19,7 @@ div a {
 
 div a:hover {
     text-decoration: none;
-    color: #FBDA61;
+    color: rgb(234, 64, 191);
 }
 
 .links {
