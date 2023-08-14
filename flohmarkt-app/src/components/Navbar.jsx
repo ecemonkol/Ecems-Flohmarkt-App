@@ -16,6 +16,7 @@ const Navbar = () => {
           <Link to="/contact" id="contact" > CONTACT </Link>
           <Link to="/cart" id="cart"> CART<FaShoppingCart/></Link>
         </div>
+        
       </div>
     </>
   

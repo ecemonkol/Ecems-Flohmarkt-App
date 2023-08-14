@@ -10,6 +10,7 @@ export const Shop = () => {
   return (
    <div>
       <div className="shoppage">
+        <img className= "headerimg" src='./logo.png' alt=""/>
         <div className="products">
           {PRODUCTS.map((product) => (
             <Product data={product} />

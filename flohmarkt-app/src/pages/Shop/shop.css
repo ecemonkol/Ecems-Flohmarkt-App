@@ -89,3 +89,7 @@ div .pic:hover {
 }
 
 
+.headerimg {
+  margin-top: -500px;
+  width: 80%;
+}
