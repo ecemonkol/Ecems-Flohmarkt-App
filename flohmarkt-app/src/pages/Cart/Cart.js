@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { ShopContext } from "../../context/shopcontext";
 import { PRODUCTS } from "../../products";
-import  CartItem  from "./cart-item.jsx";
+import CartItem from "./cart-item.jsx";
 import { useNavigate } from "react-router-dom";
 import PromoCodeInput from "../../components/PromoCodeInput"; // Import the PromoCodeInput component
 import "./cart.css";
@@ -43,8 +43,8 @@ export const Cart = () => {
   };
 
   return (
-    <div className="cart">
-      <div>
+    <div >
+      <div className="cartheader">
         <h1>Your Cart Items</h1>
       </div>
       <div className="cart">
@@ -60,25 +60,35 @@ export const Cart = () => {
         <div className="checkout">
           <p className="subtotal">Subtotal: {originalTotalAmount.toFixed(2)} EU</p>
           <PromoCodeInput value={promoCode} onChange={handlePromoCodeChange} /> {/* Render the PromoCodeInput component */}
-          <button onClick={handleApplyPromoCode}>Apply</button>
-          {discountedTotalAmount !== null && promoCode === 'SOMMAR23' ? (
-            <>
-              <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)} EU</p>
-              <p className="discount">Discounted Total: EU{discountedTotalAmount}</p>
-            </>
-          ) : null}
-          <button onClick={() => navigate("/")}>Continue Shopping</button>
-          <button
-            onClick={() => {
-              checkout();
-              navigate("/checkout");
-            }}
-          >
-            Checkout
-          </button>
+          <div className="buttons">
+            <button className="applybutton" onClick={handleApplyPromoCode}>Apply</button>
+            {discountedTotalAmount !== null && promoCode === 'SOMMAR23' ? (
+              <>
+                <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)} EU</p>
+                <p className="discount">Discounted Total: EU{discountedTotalAmount}</p>
+              </>
+            ) : null}
+            <div className="payorshop">
+              <button onClick={() => navigate("/")}>Continue Shopping</button>
+              <button
+                onClick={() => {
+                  checkout();
+                  navigate("/checkout");
+                }}
+              >
+                Checkout
+              </button>
+            </div>
+            
+          </div>
+
         </div>
       ) : (
-        <h1>Your Shopping Cart is Empty</h1>
+        <div className="empty">
+          <h1 className="emptytext">Your Shopping Cart is Empty</h1>
+          <img className="sadface" src='./sad.png' alt="" />
+        </div>
+
       )}
     </div>
   );

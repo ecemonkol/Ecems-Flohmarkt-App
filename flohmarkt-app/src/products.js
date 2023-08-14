@@ -9,6 +9,11 @@ import pitcher from "./assets/pitcher.png"
 import stool from "./assets/stool.png"
 import frame from "./assets/frame.png"
 import hoodie from "./assets/hoodie.png"
+import converse from "./assets/converse.png"
+import retrolampe from "./assets/retrolampe.png"
+import recbag from "./assets/recbag.png"
+import rollerskates from "./assets/rollerskates.png"
+import clock from "./assets/clock.png"
 
 
 export const PRODUCTS = [
@@ -97,6 +102,46 @@ export const PRODUCTS = [
         productName:'Pull&Bear Hoodie M',
         productImage: hoodie,
         price: 20 ,
+
+    },
+
+    {
+        id : 12,
+        productName:'Wall clock',
+        productImage: clock,
+        price: 120 ,
+
+    },
+
+    {
+        id : 13,
+        productName:'Converse',
+        productImage: converse,
+        price: 30 ,
+
+    },
+
+    {
+        id : 14,
+        productName:'Impala Rollerskates 37',
+        productImage: rollerskates,
+        price: 90 ,
+
+    },
+
+    {
+        id : 15,
+        productName:'Retro Tablelamp',
+        productImage: retrolampe,
+        price: 90 ,
+
+    },
+
+    {
+        id : 16,
+        productName:'Camera Bag',
+        productImage: recbag,
+        price: 90 ,
 
     },
     

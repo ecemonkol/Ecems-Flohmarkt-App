@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div id="promo-bar">
-        <p className='promocode'> 10% discount code on everything! code: SOMMAR23</p>
+        <p className='promocode'> 10% discount on everything! code: SOMMAR23</p>
       </div>
       <div className="navbar">
         <div className="links">
