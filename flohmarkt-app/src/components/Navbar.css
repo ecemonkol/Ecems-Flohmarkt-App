@@ -23,9 +23,9 @@ div a:hover {
 }
 
 .links {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 0%;
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'Konstant Grotesk', sans-serif; 
     display: flex;
     justify-content: space-between;
