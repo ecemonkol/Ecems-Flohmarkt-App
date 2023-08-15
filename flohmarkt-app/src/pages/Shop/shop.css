@@ -16,7 +16,7 @@
 }
 
 .addToCartButton:hover {
-
+  color: green;
 
 }
 
@@ -119,6 +119,12 @@ div .pic:hover {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+
+.startshoppingbutton:hover {
+  color: rgb(234, 64, 191); 
+}
+
 
 div.item {
   margin-bottom: 100px;

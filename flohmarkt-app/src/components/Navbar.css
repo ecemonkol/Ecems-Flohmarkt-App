@@ -17,7 +17,7 @@ div a {
 
 div a:hover {
     text-decoration: none;
-    color: rgb(234, 64, 191);
+    color:rgb(234, 64, 191); 
 }
 
 .links {
@@ -28,7 +28,8 @@ div a:hover {
     display: flex;
     justify-content: space-between;
     align-items: baseline;  
-    position: relative;                                  
+    position: relative; 
+    letter-spacing: 3px;                                 
 }
     
 .promocode {
@@ -49,3 +50,9 @@ div a:hover {
     
 }
 
+
+.icon {
+    width: 27px;
+    vertical-align: top;
+    margin-left: 3px;
+}

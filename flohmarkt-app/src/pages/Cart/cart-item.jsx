@@ -13,7 +13,7 @@ const CartItem = (props) => {
         <p>
           <b>{productName}</b>
         </p>
-        <p> Price: {price} EU</p>
+        <p> €{price}</p>
         <div className="countHandler">
           <button className="minusplus" onClick={() => removeFromCart(id)}> - </button>
           <input className="menge"

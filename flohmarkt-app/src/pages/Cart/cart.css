@@ -5,11 +5,10 @@
     align-items: center;
     font-family: 'Konstant Grotesk', sans-serif;                                           
     font-size: 18px;
-    font-weight: 40;
-    margin-top: -400px;
+    margin-top: -300px;
     color:rgba(23, 23, 23, 0.867);
     text-align: left;
-    text-decoration: underline;
+    
     
 }
 
@@ -116,8 +115,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;                                        
-    font-size: 24px;   
+    font-family: 'Konstant Grotesk', sans-serif;                                       
+    font-size: 22px; 
+    color: green;  
 }
 
 .promocodebar {
@@ -136,8 +136,8 @@
    display: grid;
    grid-template-rows: 1fr;  
    justify-content: center;
-   font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;                                        
-    font-size: 24px;   
+   font-family: 'Konstant Grotesk', sans-serif;                                        
+    font-size: 18px;   
     margin-bottom: 10px;
 }
 
@@ -184,6 +184,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .emptytext {
@@ -201,6 +202,11 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    font-family: 'Konstant Grotesk', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: green;
 }
 
 .applybutton {
@@ -208,9 +214,21 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    width: 150px;
 }
 
 .payorshop {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 25px;
+    column-gap: 25px;
+    padding: 30px 35%;
+}
+
+b {
+    font-weight: 200;
+}
+
+b, p, a, h1 {
+    letter-spacing: 1px;
 }

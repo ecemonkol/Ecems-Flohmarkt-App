@@ -45,7 +45,7 @@ export const Cart = () => {
   return (
     <div >
       <div className="cartheader">
-        <h1>Your Cart Items</h1>
+        <h1>Your Cart Items:</h1>
       </div>
       <div className="cart">
         {PRODUCTS.map((product) => {
@@ -58,14 +58,14 @@ export const Cart = () => {
 
       {originalTotalAmount > 0 ? (
         <div className="checkout">
-          <p className="subtotal">Subtotal: {originalTotalAmount.toFixed(2)} EU</p>
+          <p className="subtotal">Subtotal: €{originalTotalAmount.toFixed(2)} </p>
           <PromoCodeInput value={promoCode} onChange={handlePromoCodeChange} /> {/* Render the PromoCodeInput component */}
           <div className="buttons">
             <button className="applybutton" onClick={handleApplyPromoCode}>Apply</button>
             {discountedTotalAmount !== null && promoCode === 'SOMMAR23' ? (
               <>
-                <p className="discount">Promo Code Discount (20% off): {(originalTotalAmount * 0.2).toFixed(2)} EU</p>
-                <p className="discount">Discounted Total: EU{discountedTotalAmount}</p>
+                <p className="discount">Promo Code Discount (20% off): €{(originalTotalAmount * 0.2).toFixed(2)} </p>
+                <p className="discount">Discounted Total: €{discountedTotalAmount}</p>
               </>
             ) : null}
             <div className="payorshop">
