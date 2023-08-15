@@ -115,7 +115,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Konstant Grotesk', sans-serif;                                       
+    font-family: 'Inconsolata', monospace;                              
     font-size: 22px; 
     color: green;  
 }
@@ -136,7 +136,7 @@
    display: grid;
    grid-template-rows: 1fr;  
    justify-content: center;
-   font-family: 'Konstant Grotesk', sans-serif;                                        
+   font-family: 'Inconsolata', monospace;                                      
     font-size: 18px;   
     margin-bottom: 10px;
 }
@@ -192,22 +192,24 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    font-family: 'Konstant Grotesk', sans-serif;                                           
+    font-family: 'Inconsolata', monospace;                                     
     font-size: 26px;
     margin-bottom: 20px;
 }
 
-.buttons .discount {
+.buttons .discount  {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    font-family: 'Konstant Grotesk', sans-serif;
+    font-family: 'Inconsolata', monospace;
     margin-top: 40px;
     margin-bottom: 10px;
     font-size: 20px;
     color: green;
 }
+
+
 
 .applybutton {
     display: flex;
