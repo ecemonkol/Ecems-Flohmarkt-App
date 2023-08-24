@@ -21,7 +21,7 @@
 .social:hover {
     
     color: rgb(234, 64, 191);
-    margin-top: 20px;
+    
     font-size: larger;
 
 }
@@ -35,3 +35,29 @@ p {
     margin-bottom: -300px;
     width: 100%;
 }
+
+@media (max-width: 767px){
+
+    b{
+        display: none;
+    }
+
+    .social {
+        padding: 30px;
+        
+        
+        
+    }
+
+    .footerimg {
+        display: none;
+    }
+    
+    div.footer {
+        height: 100px;
+        margin-bottom: auto;
+        align-items: end;
+    }
+}
+
+

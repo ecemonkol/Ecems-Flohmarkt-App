@@ -1,9 +1,6 @@
-
-
 .contactform input  {
   width: 300px;
   height: 30px;
-  
   border-radius: 2px;
   border: black solid 2px;
 }
@@ -11,7 +8,6 @@
 textarea {
   width: 300px;
   height: 100px;
-  
   border: rgb(0, 0, 0) solid 2px;
   
 }
@@ -24,16 +20,14 @@ textarea {
 
 form {
     margin-top: -400px;
-    padding-top: 20px;
     padding-bottom: 40px;
+    margin-bottom: 60px;
     width: 400px;
-    margin-left: 35%;
-    position: relative;
-    display: inline-block;
     background-color: rgba(240, 248, 255, 0.2);
     border: black solid 4px;
     
 }
+
 
 label {
     font-size: 18px;
@@ -44,19 +38,12 @@ label {
     font-family: 'Inconsolata', monospace;
     text-align: left;
     margin-left: 0;
-    
 }
 
 ::placeholder { 
     color: rgb(182, 182, 182)
 }
 
-
-.contactform {
-    text-align: center;
-    justify-content: center;
-    display: block;
-}
 
 textarea {
     resize: none;
@@ -78,13 +65,16 @@ textarea {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    
-    
+    margin-left: 40%;
 }
-  
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .submitbutton:hover {
-  
-  
+    color: rgb(234, 64, 191); 
 }
   
 .submitbutton:active {
@@ -96,4 +86,10 @@ textarea {
     box-shadow: 0px 0px 0px 0px;
     top: 5px;
     left: 5px;
+}
+
+@media (max-width: 767px){
+  form {
+    margin-top: 20px;
+  }
 }

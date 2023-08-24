@@ -1,27 +1,24 @@
 .cartheader {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Konstant Grotesk', sans-serif;                                           
     font-size: 18px;
-    margin-top: -300px;
+    margin-top: -350px;
     color:rgba(23, 23, 23, 0.867);
     text-align: left;
-    
     
 }
 
 .cart {
-
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    align-items: center;
 }
   
 .cartItem {
     width: 700px;
-    height: 250px;
     display: flex;
     align-items: center;
     margin: 30px;
@@ -49,7 +46,6 @@
 }
 
 .minusplus {
-    
     background-color: rgba(19, 19, 19, 0.16);
     color: white;
     border: none;
@@ -102,11 +98,8 @@
     
 }
 
-.checkoutbutton:hover {
-    text-decoration: none;
-    background-color: rgb(253, 216, 70);
-    border-color:rgb(253, 216, 70);
-    color: #2e2e2e;
+.checkout button:hover {
+    color: rgb(234, 64, 191); 
 }
 
 .subtotal {
@@ -161,8 +154,7 @@
 }
   
 .button:hover {
-  
-  
+    color: rgb(234, 64, 191); 
 }
   
 .button:active {
@@ -210,7 +202,6 @@
 }
 
 
-
 .applybutton {
     display: flex;
     justify-content: center;
@@ -233,4 +224,27 @@ b {
 
 b, p, a, h1 {
     letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+    .empty {
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+    
+
+    .cart {
+        margin-top: 160px;
+        
+    }
+
+    .cartItem {
+        margin-top: 10px;
+        
+    }
+
+    .cardheader {
+        margin-top: 10px;
+        font-size: small;
+    }
 }

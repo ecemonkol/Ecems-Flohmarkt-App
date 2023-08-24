@@ -31,11 +31,6 @@
   left: 5px;
 }
 
-@media (min-width: 768px) {
-.addToCartButton {
-  padding: 0.25em 0.75em;
-}
-}
 
 
 .products {
@@ -92,12 +87,17 @@ div .pic:hover {
 
 .headerimg {
   margin-top: -500px;
-  width: 80%;
+  width: 85%;
+  max-width: 100%;
+  height: auto;
 }
 
 .shopheader {
   width: 90%;
   margin-top: 8px;
+  align-content: center;
+  display: flex;
+
 }
 
 .startshoppingbutton {
@@ -129,4 +129,10 @@ div .pic:hover {
 
 div.item {
   margin-bottom: 100px;
+}
+
+@media (max-width: 400px) {
+  .startshoppingbutton {
+    color: aquamarine;
+  }
 }

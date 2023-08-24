@@ -1,7 +1,5 @@
 .navbar {
     font-size: 22px;
-    justify-content: space-between;
-    align-items: start;
     padding: 30px 8%;
     margin-top: 0;
     background: linear-gradient(180deg, rgba(165, 201, 63, 0.85) 0%, rgba(255, 157, 11, 0.33) 67.71%, rgba(255, 157, 11, 0.00) 96.35%);
@@ -21,38 +19,78 @@ div a:hover {
 }
 
 .links {
-    margin-top: 20px;
-    margin-bottom: 0%;
+    margin-bottom: 50px;
     font-size: 35px;
     font-family: 'Konstant Grotesk', sans-serif; 
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;  
-    position: relative; 
-    letter-spacing: 3px;                                 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    letter-spacing: 4px;                               
 }
+
+.navbar :nth-child(3) {
+    margin-left: auto;
+}
+
+.navbar :nth-child(2) {
+    justify-self: center;
+}
+
     
 .promocode {
-    display: inline;
     font-family: 'Konstant Grotesk', sans-serif;
-    justify-content: center;
     color: white;
-    margin: 34%;
-    position: relative;
-    top: 18%;
-    transform: translateY(-50%);
+    font-size: small;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6%;
     
 }
 
 #promo-bar {
     background-color: rgb(43, 43, 43);
     height: 30px;
-    
+    display: grid;
 }
+
 
 
 .icon {
     width: 27px;
     vertical-align: top;
     margin-left: 3px;
+    
+}
+
+@media (max-width: 767px){
+    .navbar{
+        width:calc(100%-40px);
+        margin-bottom:0;
+        height: 100px;
+        background: none;
+        display: grid;
+        justify-content: center;
+    }
+   
+    .links {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+    }
+    
+    div a {
+        font-size: 28px;
+    }
+
+    .navbar :nth-child(2) {
+        justify-self: center;
+        
+    }
+
+    .headerimg {
+        margin-top: -80px;
+    }
+
+    
+
 }
